@@ -6,10 +6,10 @@ const app = express();
 
 
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'Republic_C207',
-  database: 'c237_imh'
+  host: 'sr3b1j.h.filess.io',
+  user: 'c237CA2_spinhandle',
+  password: 'fff014f03b16fa00227fea0417103c7aaca758c3',
+  database: 'c237CA2_spinhandle'
 });
 
 connection.connect((err) => {
@@ -289,5 +289,5 @@ app.use((req, res) => {
 });
 
 // Run server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3307;
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
